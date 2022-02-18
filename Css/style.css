@@ -18,14 +18,15 @@ h1{
 .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge ;
+    border-bottom: 1px #590d22 ridge ;
     min-height:400px;
 }
 
 .footer{
-    background-color: #AAA1A0;
+    background-color: #590d22;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
+    color: white;
 }
 
 .jumbotron {
@@ -139,6 +140,7 @@ body{
     display: inline-block;
     width: 100px;
     height: 100px;
+    color: #512DA8;
 }
 
 .mh-progress path:nth-child(1){
@@ -147,11 +149,11 @@ body{
 }
 
 .mh-progress path:nth-child(1){
-    stroke: rgb(0, 0, 0,0.7);  
+    stroke: #ffb3c1;  
     
   }
   .mh-progress path:nth-child(2){
-      stroke: #0bceaf;
+      stroke: #590d22;
   }
 
 
@@ -198,7 +200,7 @@ body{
     height: 7px;
     margin: 30px 0 2px;
     border-radius: 10px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #ffccd5;
 }
 
 
@@ -217,7 +219,7 @@ body{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius:10px ;
     border-bottom-right-radius:10px ;
-    background: #0bceaf;
+    background: #800f2f;
     transition: 3s all;
     animation: mymove 5s ;}
 
@@ -228,10 +230,10 @@ body{
 
 
 .nome{
-    color: #0bceaf;
+    color: #800f2f;
 }
 .percentage-num{
-    color: #0bceaf;
+    color: #800f2f;
 
 }
 h3{
@@ -246,7 +248,7 @@ h3{
 
 
 .bg{
-    background-color: #9c5f43;
+    background-color: #590d22;
 }
 
 .btn-color{
@@ -254,7 +256,7 @@ h3{
     background-color: #505248;
 }
 body{
-    background-color: #335a58;
+    background-color:#fff0f3 ;
 }
 
 
@@ -263,7 +265,7 @@ body{
 
 
 label{
-    color: wheat;
+    color: #590d22;
 }
 
 .Gallery-container .Gallery-content a{
@@ -275,17 +277,27 @@ label{
 }
 
 ul li a{
-    color: #0f0f0f;
+    color: white;
 }
 
 
 
 ul li a:hover{
-    color: #9c5f43;
+    color: #ffb3c1;
 }
 
 
 address a:hover{
-    color: #9c5f43;
+    color: #ffb3c1;
 }
 
+address{
+    color: white;
+}
+
+.btn-social-icon {
+    background-color: white;
+}
+address a {
+    color: white;
+}
